@@ -50,9 +50,9 @@ void setup() {
  
  
   soundController.initialize(); 
-  startSound();
-  startFFT();
-  startBeatDetection();
+ // startSound();
+ // startFFT();
+ // startBeatDetection();
  // player = minimObject.loadFile("Audio/09 - High Low Middle.mp3"); 
 }
 
