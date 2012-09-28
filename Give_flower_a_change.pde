@@ -149,10 +149,6 @@ void drawBeatDetection(){
   sphereSize = constrain (sphereSize* 0.99, 16, 32);
 }
 
-
-
-
-
 ///////// -------    GUI ----------------/////////////////
 void keyPressed(){ 
    if(keyCode == ENTER )     stop();    
@@ -163,13 +159,11 @@ void mouseDragged() {
   particles.add(new Particle());
 }
 
-
 void mousePressed(){
 // particles  = new Particle[NUM_PARTICLES];
 // for(int i = 0; i < NUM_PARTICLES; i ++){
 // fill (greenish);
-// particles[i] = new Particle();
-// 
+// particles[i] = new Particle(); 
 // }
 // //resetParticles();
 // drawParticles(mouseX, mouseY);
